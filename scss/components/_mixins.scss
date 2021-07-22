@@ -1,0 +1,26 @@
+@use '../custom' as *;
+
+@mixin gradient {
+    background: $linear;
+}
+@mixin transition-default ($val) {
+    transition: $val .3s ease-in-out;
+}
+@mixin small-title {
+    &::before {
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 11em;
+        height: .2em;
+        background-color: $primary;
+    }
+    &::after {
+        content: "";
+        display: block;
+        margin: 0 auto;
+        width: 2em;
+        height: .5em;
+        background-color: $primary;
+    }
+}

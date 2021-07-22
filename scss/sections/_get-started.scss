@@ -1,0 +1,33 @@
+@use '../components/mixins'as *;
+@use '../custom'as *;
+
+.get-started {
+    background: #e9ecef;
+
+    &__container {
+        @include gradient;
+        padding: 3rem;
+
+        h6 {
+            font-size: 1.6875rem;
+        }
+    }
+
+    &__container-light {
+        padding: 3rem;
+        padding-bottom: 1.5rem;
+        background: $light !important;
+
+        h5 {
+            @include gradient;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 1.8rem;
+            padding-top: 3rem;
+        }
+        textarea {
+            max-height: 270px;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+@use '../custom' as *;
+
+.services {
+    &-mid {
+       margin-top: 1em;
+       
+       &__title {
+        @include media-breakpoint-up(xxl) {
+            font-size: 1.4rem;
+        }
+       }
+    }
+}

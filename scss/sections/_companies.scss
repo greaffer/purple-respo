@@ -1,0 +1,29 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.companies {
+        margin-bottom: 6em;
+
+    &--title {
+        font-size: 1.25rem;
+    }
+    &--small__title {
+        margin-bottom: 3em;
+    
+       @include small-title;
+    }
+    &--box {
+       height: 3rem;
+       max-width: 100%;
+       text-align: center;
+       padding: 0.5rem;
+       position: relative;
+       
+       img {
+           height: 100%;
+           &:hover {
+            filter: grayscale(100);
+        }
+       }
+    }
+}

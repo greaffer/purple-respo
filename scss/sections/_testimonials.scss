@@ -1,0 +1,38 @@
+@use '../custom'as *;
+@use '../components/mixins'as *;
+
+.testimonials {
+    &-background {
+        @include gradient;
+    }
+
+    &-line {
+        height: 3px !important;
+    }
+
+    &-subtext {
+        font-size: 1.25rem;
+    }
+
+    &-card {
+        background: #f3d5fa;
+    }
+
+    &-card__img {
+        width: 6rem;
+        height: 6rem;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &-card__name {
+        font-size: 1.5875rem;
+        padding-top: 1em;
+        font-weight: 500;
+        font-size: 1.56979375rem;
+    }
+    &-card__position {
+        
+    }
+}

@@ -1,0 +1,58 @@
+@use '../custom'as*;
+
+.footer {
+    background: #151414;
+
+    &-iconlink {
+        text-decoration: none;
+        font-size: 1.4rem;
+        font-weight: 600;
+
+        &:hover {
+            color: $primary !important;
+        }
+
+    }
+
+    &-iconsublink {
+        color: #6c757d;
+        font-weight: 600;
+    }
+
+    &-mid {
+        background: #212121;
+
+        a:hover {
+            color: $primary !important;
+        }
+    }
+
+    &-last {
+        padding-top: 3em;
+
+        a {
+            color: $white;
+            text-decoration: none;
+
+            &:hover {
+                color: $primary;
+            }
+        }
+    }
+
+    &-line {
+        color: $white;
+        height: 2px !important;
+        width: 4em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
+    &-copy {
+        p {
+            color: #6c757d;
+            margin: 0;
+            background: $black;
+        }
+    }
+}
