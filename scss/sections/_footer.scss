@@ -22,6 +22,12 @@
     &-mid {
         background: #212121;
 
+        &-icons {
+            @include media-breakpoint-down(sm) {
+                padding-bottom: 2rem;
+            }
+        }
+
         a:hover {
             color: $primary !important;
         }

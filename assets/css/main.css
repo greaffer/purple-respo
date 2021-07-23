@@ -10831,6 +10831,11 @@ textarea.form-control-lg {
   margin-top: 1em;
   text-transform: lowercase;
 }
+@media (min-width: 1400px) {
+  .display-2--description {
+    font-size: 1.2rem;
+  }
+}
 
 .universal--title {
   font-size: 3.10833125rem;
@@ -10852,6 +10857,11 @@ textarea.form-control-lg {
   width: 2em;
   height: 0.5em;
   background-color: #9926f0;
+}
+@media (min-width: 1400px) {
+  .universal--title {
+    font-size: 3.9rem;
+  }
 }
 
 .services-body__title {
@@ -10946,6 +10956,11 @@ textarea.form-control-lg {
 .companies--title {
   font-size: 1.25rem;
 }
+@media (min-width: 1400px) {
+  .companies--title {
+    font-size: 1.4rem;
+  }
+}
 .companies--small__title {
   margin-bottom: 3em;
 }
@@ -10987,6 +11002,16 @@ textarea.form-control-lg {
     font-size: 1.4rem;
   }
 }
+@media (min-width: 1400px) {
+  .services-mid__body {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 1400px) {
+  .services-body__main {
+    font-size: 1.1rem;
+  }
+}
 
 .testimonials-background {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.9), rgba(209, 34, 227, 0.9));
@@ -10996,6 +11021,11 @@ textarea.form-control-lg {
 }
 .testimonials-subtext {
   font-size: 1.25rem;
+}
+@media (min-width: 1400px) {
+  .testimonials-subtext {
+    font-size: 1.3rem;
+  }
 }
 .testimonials-card {
   background: #f3d5fa;
@@ -11013,8 +11043,14 @@ textarea.form-control-lg {
   font-weight: 500;
   font-size: 1.56979375rem;
 }
+
 .faq {
   margin-bottom: 8em;
+}
+@media (min-width: 1400px) {
+  .faq button {
+    font-size: 1.2rem;
+  }
 }
 
 .img-cont {
@@ -11069,6 +11105,11 @@ textarea.form-control-lg {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.9), rgba(209, 34, 227, 0.9));
   padding: 3rem;
 }
+@media (max-width: 575.98px) {
+  .get-started__container {
+    padding: 1rem;
+  }
+}
 .get-started__container h6 {
   font-size: 1.6875rem;
 }
@@ -11076,6 +11117,11 @@ textarea.form-control-lg {
   padding: 3rem;
   padding-bottom: 1.5rem;
   background: #f8f9fa !important;
+}
+@media (max-width: 575.98px) {
+  .get-started__container-light {
+    padding: 1rem;
+  }
 }
 .get-started__container-light h5 {
   background: linear-gradient(to right, rgba(153, 38, 240, 0.9), rgba(209, 34, 227, 0.9));
@@ -11106,6 +11152,11 @@ textarea.form-control-lg {
 }
 .footer-mid {
   background: #212121;
+}
+@media (max-width: 575.98px) {
+  .footer-mid-icons {
+    padding-bottom: 2rem;
+  }
 }
 .footer-mid a:hover {
   color: #9926f0 !important;

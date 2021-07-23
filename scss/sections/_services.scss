@@ -9,5 +9,15 @@
             font-size: 1.4rem;
         }
        }
+       &__body {
+        @include media-breakpoint-up(xxl) {
+            font-size: 1rem;
+        }
+       }
+    }
+    &-body__main {
+        @include media-breakpoint-up(xxl) {
+            font-size: 1.1rem;
+        }
     }
 }

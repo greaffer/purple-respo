@@ -7,6 +7,9 @@
     &__container {
         @include gradient;
         padding: 3rem;
+        @include media-breakpoint-down(sm) {
+            padding: 1rem;
+        }
 
         h6 {
             font-size: 1.6875rem;
@@ -17,6 +20,9 @@
         padding: 3rem;
         padding-bottom: 1.5rem;
         background: $light !important;
+        @include media-breakpoint-down(sm) {
+            padding: 1rem;
+        }
 
         h5 {
             @include gradient;

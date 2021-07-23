@@ -6,6 +6,9 @@
 
     &--title {
         font-size: 1.25rem;
+        @include media-breakpoint-up(xxl) {
+            font-size: 1.40rem;
+        }
     }
     &--small__title {
         margin-bottom: 3em;

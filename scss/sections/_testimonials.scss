@@ -12,6 +12,9 @@
 
     &-subtext {
         font-size: 1.25rem;
+        @include media-breakpoint-up(xxl) {
+            font-size: 1.3rem;
+        }
     }
 
     &-card {
@@ -31,8 +34,5 @@
         padding-top: 1em;
         font-weight: 500;
         font-size: 1.56979375rem;
-    }
-    &-card__position {
-        
     }
 }

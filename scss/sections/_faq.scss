@@ -1,3 +1,11 @@
+@use '../custom' as *;
+
 .faq {
     margin-bottom: 8em;
+
+    button {
+        @include media-breakpoint-up(xxl) {
+            font-size: 1.2rem;
+        }
+    }
 }
